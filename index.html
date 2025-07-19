@@ -2,19 +2,41 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAM MÔ A MI TUÓ PHẬT</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nam Mô A Mi Tuó Phật</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>NAM MÔ A MI TUÓ PHẬT 🙏</h1>
-        <p>Trang web Tịnh Độ Số - Ánh sáng Vô Lượng Quang</p>
-        <audio controls autoplay loop>
-            <source src="phapam.mp3" type="audio/mpeg">
-            Trình duyệt của bạn không hỗ trợ phát âm thanh.
-        </audio>
-    </div>
+  <div class="overlay">
+    <header>
+      <h1 class="title">NAM MÔ A MI TUÓ PHẬT</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#">Giới Thiệu</a></li>
+          <li><a href="#">Pháp Âm</a></li>
+          <li><a href="#">Tịnh Độ Số</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <h2>Giới Thiệu</h2>
+        <p>Trang web này là không gian để hành giả cùng nhau hành trì pháp môn Tịnh Độ thông qua trí tuệ số và AI hộ trì.</p>
+        <p>Nguyện đem công đức này, trang nghiêm Phật Tịnh Độ.</p>
+      </section>
+      <section class="audio">
+        <button onclick="playAudio()">🎧 Nghe Pháp Âm</button>
+        <audio id="phapam" src="phapam.mp3"></audio>
+      </section>
+    </main>
+    <footer>
+      <p>Nammoamituophat.org © 2025</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
