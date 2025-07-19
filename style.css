@@ -17,8 +17,9 @@ body {
 
 /* Tiêu đề thư pháp */
 h1 {
-  font-family: 'Great Vibes', cursive; /* Thư pháp Latin dễ đọc */
+  font-family: 'Noto Serif', serif;
   font-size: 3em;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
